@@ -7,8 +7,45 @@
 
 body{
     font-family: "Poppins";
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
-h2 {
+h1 {
     font-family: "Afacad-Flux";
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 16px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-items a {
+    color: rgb(223, 98, 8);
 }
