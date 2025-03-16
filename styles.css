@@ -7,13 +7,14 @@
 
 body{
     font-family: "Poppins";
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-color: rgb(19, 66, 175);
+    color: white;
 }
 
 h1 {
     font-family: "Afacad-Flux";
     font-size: 28px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .container {
@@ -37,8 +38,12 @@ ul {
     padding: 36px;
     border-width: 1px;
     border-style: solid;
-    border-color: gray;
+    border-color: rgb(19, 35, 176);
     border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.2);
+
 }
 
 .nav-items {
@@ -47,5 +52,27 @@ ul {
 }
 
 .nav-items a {
-    color: rgb(223, 98, 8);
+    color: white;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 60px;
+}
+
+.profile-pic img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 500px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+}
+
+.about-content {
+    font-size: 18px;
+    word-spacing: 2px;
 }
