@@ -7,14 +7,14 @@
 
 body {
   font-family: "Poppins";
-  background-color: rgb(19, 66, 175);
-  color: white;
+  background-image: linear-gradient(120deg, #7ca1f7 0%, #76cef4 100%);
+  color: black;
 }
 
 h1 {
   font-family: "Afacad-Flux";
   font-size: 28px;
-  color: white;
+  color: black;
 }
 
 .container {
@@ -38,7 +38,6 @@ ul {
   padding: 36px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(19, 35, 176);
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -51,7 +50,7 @@ ul {
 }
 
 .nav-items a {
-  color: white;
+  color: black;
 }
 
 .about-me {
@@ -85,7 +84,7 @@ h2 {
 
 .football-interest img {
   height: 300px;
-  width: 250px;
+  width: 200px;
   border-radius: 14px;
 }
 
@@ -97,4 +96,50 @@ h2 {
   margin: 20px;
   gap: 26px;
   text-align: center;
+}
+
+.cricket-interest img {
+  height: 300px;
+  width: 180px;
+  border-radius: 14px;
+}
+
+.cricket-interest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 32px;
+  gap: 26px;
+  text-align: center;
+}
+
+.coding-interest img {
+  height: 300px;
+  width: 200px;
+  border-radius: 14px;
+}
+
+.coding-interest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 32px;
+  gap: 26px;
+  text-align: center;
+}
+
+.achiev-heading {
+  text-align: left;
+  font-family: "Afacad-Flux";
+  margin-bottom: 14px;
+}
+
+.achiev-list {
+  margin-left: 30px;
+}
+
+.achiev-list li {
+  padding: 3px;
 }
