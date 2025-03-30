@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins";
-  background-image: linear-gradient(120deg, #7ca1f7 0%, #76cef4 100%);
+  background-image: linear-gradient(120deg, #1443ed 0%, #28dac2 100%);
   color: black;
 }
 
@@ -25,6 +25,7 @@ h1 {
 
 a {
   text-decoration: none;
+  font-size: 16px;
 }
 
 ul {
@@ -39,7 +40,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-radius: 16px;
-  border-color: rgb(105, 164, 246);
+  border-color: rgb(47, 71, 253);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.2);
@@ -52,8 +53,14 @@ ul {
 
 .nav-items a {
   color: black;
+  padding: 8px;
 }
 
+.nav-items a:hover {
+  background-color: #1c77ed;
+  border: 1px solid black;
+  border-radius: 8px;
+}
 .about-me {
   display: flex;
   justify-content: center;
@@ -80,7 +87,7 @@ ul {
 h2 {
   font-family: "Afacad-Flux";
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
 }
 
 .football-interest img {
@@ -131,6 +138,22 @@ h2 {
   text-align: center;
 }
 
+.line-between {
+  border: none;
+  height: 2px;
+  background: linear-gradient(120deg, #28dac2 0%, #1443ed 100%);
+  width: 700px;
+  margin: 0 auto;
+}
+
+.achiev-container {
+  border: 1px solid rgb(105, 210, 251);
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 24px;
+  border-radius: 16px;
+}
+
 .achiev-heading {
   text-align: left;
   font-family: "Afacad-Flux";
@@ -153,7 +176,7 @@ h2 {
   border-width: 1px;
   border-style: solid;
   border-radius: 16px;
-  border-color: rgb(105, 164, 246);
+  border-color: rgb(142, 207, 166);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.2);
@@ -161,7 +184,7 @@ h2 {
 }
 
 .contact-mail {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .social-media-icons a {
