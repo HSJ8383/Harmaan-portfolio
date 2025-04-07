@@ -7,14 +7,14 @@
 
 body {
   font-family: "Poppins";
-  background-image: linear-gradient(120deg, #1443ed 0%, #28dac2 100%);
-  color: black;
+  background-image: linear-gradient(120deg, #0732d0 0%, #0a7baf 100%);
+  color: white;
 }
 
 h1 {
   font-family: "Afacad-Flux";
   font-size: 28px;
-  color: black;
+  color: white;
 }
 
 .container {
@@ -40,7 +40,7 @@ ul {
   border-width: 1px;
   border-style: solid;
   border-radius: 16px;
-  border-color: rgb(47, 71, 253);
+  border-color: rgb(105, 210, 251);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.2);
@@ -52,15 +52,10 @@ ul {
 }
 
 .nav-items a {
-  color: black;
+  color: white;
   padding: 8px;
 }
 
-.nav-items a:hover {
-  background-color: #1c77ed;
-  border: 1px solid black;
-  border-radius: 8px;
-}
 .about-me {
   display: flex;
   justify-content: center;
@@ -176,7 +171,7 @@ h2 {
   border-width: 1px;
   border-style: solid;
   border-radius: 16px;
-  border-color: rgb(142, 207, 166);
+  border-color: rgb(105, 210, 251);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.2);
@@ -185,6 +180,10 @@ h2 {
 
 .contact-mail {
   font-size: 16px;
+}
+
+.email-link {
+  color: white;
 }
 
 .social-media-icons a {
@@ -198,4 +197,55 @@ h2 {
 
 .social-link-yt {
   color: red;
+}
+
+@media (max-width: 425px) {
+  .nav-items {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+    padding: 24px;
+  }
+  .about-me {
+    flex-direction: column-reverse;
+    gap: 36px;
+  }
+  .about-content {
+    text-align: center;
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .line-between {
+    width: 320px;
+  }
+  .football-interest {
+    font-size: 16px;
+  }
+  .cricket-interest {
+    font-size: 16px;
+  }
+  .coding-interest {
+    font-size: 16px;
+  }
+  .achiev-heading {
+    text-align: center;
+  }
+  .achiev-list {
+    margin-left: 0px;
+    text-align: left;
+    font-size: 16px;
+  }
+  .contact-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .social-media-icons {
+    margin-top: 12px;
+  }
+  .social-media-icons a {
+    font-size: 24px;
+  }
 }
